@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer wireframe circle -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 54, 30 A 24,24 0 1,0 54,78 A 24,24 0 1,0 54,30 Z" />
+
+    <!-- Inner diamond / coordinate center -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 54,44 L 64,54 L 54,64 L 44,54 Z" />
+
+    <!-- Center dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54, 52 A 2,2 0 1,0 54,56 A 2,2 0 1,0 54,52 Z" />
+
+    <!-- 4 wireframe tick crosshairs -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 54,23 L 54,27 M 54,81 L 54,85 M 23,54 L 27,54 M 81,54 L 85,54" />
+</vector>

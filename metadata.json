@@ -1,0 +1,6 @@
+{
+  "name": "Onyx Launcher",
+  "description": "Ultra-minimalist True Black and wireframe monochrome Android launcher with fast alphabet scroller.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
